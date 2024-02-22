@@ -1,0 +1,20 @@
+{
+  "name": "ftp2_s3",
+  "version": "0.1.0",
+  "bin": {
+    "ftp2_s3": "bin/ftp2_s3.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "aws-cdk": "2.129.0",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.129.0",
+    "constructs": "^10.0.0"
+  }
+}
